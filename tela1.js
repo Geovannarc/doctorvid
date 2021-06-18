@@ -94,7 +94,6 @@
 		}
 		virus = game.add.sprite(300, 100, "virus");
 		game.physics.arcade.enable(virus);
-		virus.body.setSize(135, 144, 9, 9);
 		virus.body.collideWorldBounds = true;
 		virus.enable = true;
 		virus.body.velocity.x = 200;
